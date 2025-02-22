@@ -1,0 +1,14 @@
+break *vulnerable_func
+  commands
+    printf "Hit vulnerable_func\n"
+
+    c
+  end
+break *do_syscall
+  commands
+    printf "Reached syscall\n"
+    inf registers
+    x/8xw %esp
+    c
+  end
+
