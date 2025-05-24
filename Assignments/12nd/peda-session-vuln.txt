@@ -1,0 +1,21 @@
+break *vulnerable
+break *0x08048087
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

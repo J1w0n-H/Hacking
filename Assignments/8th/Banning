@@ -1,0 +1,9 @@
+echo "YOU ARE HACKED!!!"
+
+while :
+do
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!HACKED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	ping -c1 localhost
+done
+
+
